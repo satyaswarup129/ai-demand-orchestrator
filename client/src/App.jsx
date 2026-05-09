@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api/demand";
+const API = "https://ai-demand-orchestrator.onrender.com/api/demand";
 
 // ── Fonts & Styles ─────────────────────────────────────────────────────────
 const FONT_LINK = document.createElement("link");
